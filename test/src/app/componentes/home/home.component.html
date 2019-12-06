@@ -1,0 +1,15 @@
+<div style="padding-top: 15px;">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action" *ngFor="let cmnt of arrComentarios; let i = index">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ cmnt.usuario }}</h5>
+                        <small>{{ cmnt.calificacion }}</small>
+                    </div>
+                    <p class="mb-1">{{ cmnt.comentario }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

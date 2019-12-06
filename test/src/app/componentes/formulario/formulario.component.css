@@ -1,0 +1,16 @@
+    a {
+        color: gray;
+        text-decoration: none !important;
+    }
+    
+    .glyphicon {
+        transition: all .5s;
+    }
+    
+    .glyphicon-heart {
+        color: #e74c3c;
+    }
+    
+    .glyphicon-heart-empty .hover {
+        transform: scale(1.1);
+    }
